@@ -1,0 +1,29 @@
+{
+  "name": "senior-backend-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "^12"
+  },
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles --coverage",
+    "start": "PORT=4000 SIMPLYRETS_URL=https://api.simplyrets.com SIMPLYRETS_USERNAME=simplyrets SIMPLYRETS_PASSWORD=simplyrets node server.js"
+  },
+  "author": "Carlos Illobre",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.0",
+    "apollo-server-express": "^2.9.0",
+    "axios": "^0.25.0",
+    "base-64": "^1.0.0",
+    "express": "4.17.2",
+    "express-winston": "^4.2.0",
+    "graphql": "^14.5.3",
+    "graphql-tools": "^4.0.5",
+    "jest": "27.4.7",
+    "merge-graphql-schemas": "^1.7.0",
+    "nock": "^13.2.2",
+    "winston": "^3.4.0"
+  }
+}
